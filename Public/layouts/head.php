@@ -95,7 +95,7 @@ if(isset($_SESSION['user'])){
                 echo '<script src="Public/js/template.js"></script>';
 				
                 // Favicon
-                echo '<link rel="shortcut icon" href="favicon.ico">';
+                echo '<link rel="shortcut icon" href="favicon3.ico">';
         ?>	
     </head>
     <body class="customcontentbody">
