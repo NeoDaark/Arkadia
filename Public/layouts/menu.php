@@ -43,7 +43,7 @@
             </div>
         </li>
         <li class="logo hidden-xs">
-            <a href="#">Arkadia</a>
+            <a href="#">Phantom RPG</a>
         </li>
         <li class="pull-right">
             <ul class="top-menu">
@@ -89,11 +89,10 @@
     <nav class="ha-menu">
         <ul>
             <?php
-                echo '  <li class="waves-effect"><a href="index.php">Inicio</a></li>
-                        <li class="waves-effect"><a href="servers.php">Servidores</a></li>
-                        <li class="waves-effect"><a href="donations.php">Donaciones</a></li>
+                echo '  <li class="waves-effect"><a href="index.php">News</a></li>
+                        <li class="waves-effect"><a href="info.php">Info</a></li>
                         <li class="waves-effect"><a href="discord.php">Discord</a></li>
-						<li class="waves-effect"><a href="points.php">Votanos</a></li>';
+			<li class="waves-effect"><a href="play.php">Play Now</a></li>';
             ?>
             
             <?php
@@ -119,19 +118,19 @@
     
 </header>
 <?php
-    if (strpos($self,"Arkadia/index.php")) {
+    if (strpos($self,"Phantom-RPG/index.php")) {
         //none
-    }else if (strpos($self,"Arkadia/login.php")) {
+    }else if (strpos($self,"Phantom-RPG/login.php")) {
         //none
     }else{
         //imprimim migas de pan
-        migasdepan($migas); 
+        //migasdepan($migas); 
     }
 
 ?>
 <?php
     //Mostrar o ocultar la ajuda --> Programació, accesos directes, etc...
-    $help = false;
+    $help = true;
     if($help){
         //var_dump($value);
         echo '  <div style="position: fixed; bottom: 10px; left: 10px; z-index: 1000; list-style: none;">
@@ -148,7 +147,7 @@
                         <li><a target="_blank" href="http://zavoloklom.github.io/material-design-iconic-font/icons.html"><i class="zmdi zmdi-menu">&nbsp;</i>Material Design Iconic Font
 </a></li>
                         <li><a target="_blank" href="/phpmyadmin"><i class="fa fa-server" aria-hidden="true">&nbsp;</i>phpmyadmin</a></li>
-                        <li><a target="_blank" href="/Arkadia/theme.php"><i class="fa fa-file-code-o" aria-hidden="true">&nbsp;</i>Theme</a></li>
+                        <li><a target="_blank" href="/Phantom-RPG/theme.php"><i class="fa fa-file-code-o" aria-hidden="true">&nbsp;</i>Theme</a></li>
                     </ul>
                 </li>
                 </div>';

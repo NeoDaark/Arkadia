@@ -51,7 +51,7 @@ if(isset($_SESSION['user'])){
             }
         </script>
         <?php
-            $subtitle='| Arkadia Servers';
+            $subtitle='| Phantom RPG';
             echo '<title>'.$title.' '.$subtitle.'</title>';
                 echo '<meta charset="UTF-8">';
                 echo '<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">';
@@ -95,8 +95,8 @@ if(isset($_SESSION['user'])){
                 echo '<script src="Public/js/template.js"></script>';
 				
                 // Favicon
-                echo '<link rel="shortcut icon" href="favicon3.ico">';
-        ?>	
+                echo '<link rel="shortcut icon" href="favicon1.ico">';
+        ?>
     </head>
     <body class="customcontentbody">
         <div class="page-loader bgm-white">
